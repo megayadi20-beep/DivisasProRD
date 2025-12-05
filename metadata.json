@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Copy of Copy of Proyecto DivisasPro Mobile RD",
+  "description": "Professional currency exchange management system for Android. Features real-time calculation, client management, and AI-powered business insights.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
