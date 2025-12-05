@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Wallet as WalletIcon, TrendingUp, ArrowUpRight, ArrowDownLeft, 
-  Plus, Minus, X, DollarSign, Briefcase, AlertTriangle, PiggyBank
+  Plus, Minus, X, DollarSign, Briefcase, PiggyBank
 } from 'lucide-react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
+import { XAxis, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
 import { CashBox, CashAdjustment, Transaction } from '../types';
 import { StorageService } from '../services/storage';
 

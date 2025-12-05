@@ -1,5 +1,4 @@
 
-import { PrinterConfig } from '../types';
 
 interface BluetoothDevice {
   id: string;

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { User, AlertCircle, CheckCircle, Printer, History, Plus, Check, Search, X, UserPlus, Phone, Zap } from 'lucide-react';
+import { User, AlertCircle, CheckCircle, Printer, History, Plus, Check, Search, X, UserPlus, Phone } from 'lucide-react';
 import { ExchangeRate, TransactionType, Client, Transaction, CurrencyPair, ConverterConfig } from '../types';
 import { StorageService } from '../services/storage';
 import { generateReceiptPDF } from '../utils/receiptGenerator';
@@ -86,7 +86,6 @@ const Converter: React.FC<ConverterProps> = ({ rates, clients, onTransactionComp
   // Labels
   const [sourceCurrency, targetCurrency] = pair.split('_');
   const sourceSymbol = sourceCurrency === 'USD' ? '$' : '€';
-  const targetSymbol = 'RD$';
   const isBuy = mode === TransactionType.BUY;
 
   // Selected Client Object
