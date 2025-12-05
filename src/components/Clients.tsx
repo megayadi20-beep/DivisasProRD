@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo } from 'react';
 import { Plus, Trash2, Edit2, StickyNote, User, Calendar, CreditCard, X, Search, TrendingUp } from 'lucide-react';
 import { Client, Transaction } from '../types';

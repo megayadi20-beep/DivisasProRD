@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { User, AlertCircle, CheckCircle, Printer, History, Plus, Check, Search, X, UserPlus, Phone } from 'lucide-react';
 import { ExchangeRate, TransactionType, Client, Transaction, CurrencyPair, ConverterConfig } from '../types';
